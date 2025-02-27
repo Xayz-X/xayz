@@ -17,4 +17,7 @@ check_untyped_defs = true
 packages = [
     "xayz",
     "xayz.queue"]
-    
+include-package-data = true
+
+[tool.setuptools.package-data]
+"xayz" = ["py.typed"]
