@@ -13,13 +13,13 @@
 
 ## 📌 **Features**  
 
-✅ **Concurrency Control** – Limits the number of active tasks.  
-✅ **Task Prioritization** – Higher priority tasks run first.  
-✅ **Retries** – Automatically retries failed tasks.  
-✅ **Event Handling** – Trigger functions when tasks change state.  
-✅ **Hooks** – Custom functions before and after each task.  
-✅ **Task Tracking** – Monitor execution progress & results.  
-✅ **Graceful Shutdown** – Ensures safe stopping of the queue.  
+- ☑ **Concurrency Control** – Limits the number of active tasks.  
+- ☑ **Task Prioritization** – Higher priority tasks run first.  
+- ☑ **Retries** – Automatically retries failed tasks.  
+- ☑ **Event Handling** – Trigger functions when tasks change state.  
+- ☑ **Hooks** – Custom functions before and after each task.  
+- ☑ **Task Tracking** – Monitor execution progress & results.  
+- ☑ **Graceful Shutdown** – Ensures safe stopping of the queue.  
 
 ---
 
@@ -88,7 +88,7 @@ async def on_task_failed(task: TaskResult):
 | `duplicate_task_id` | Triggered if a duplicate task ID is detected |
 | `task_deleted`   | Fired when a task is removed |
 
-> [!INFO]  
+> [!NOTE]  
 > Event handlers are **optional** but useful for **logging, analytics, and debugging**.
 
 ---
@@ -132,7 +132,7 @@ async def after_task(*args, **kwargs):
     print("🟢 After task execution")
 ```
 
-> [!INFO]
+> [!NOTE]
 > Hooks **do not affect** task execution but can be useful for **logging, metrics, or setup tasks**.
 
 ---
