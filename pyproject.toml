@@ -1,0 +1,10 @@
+[project]
+name = "xayz"
+version = "0.1.0"
+description = "A utility tool for many things."
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = []
+
+[tool.mypy]
+check_untyped_defs = true
