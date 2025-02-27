@@ -16,4 +16,5 @@ check_untyped_defs = true
 [tool.setuptools]
 packages = [
     "xayz",
-    "xayz.queue"
+    "xayz.queue"]
+    
