@@ -27,7 +27,7 @@
 
 Clone the repository and install dependencies:  
 ```sh
-git clone https://github.com/Xayz-X/xayz.git
+pip install git+https://github.com/Xayz-X/xayz.git
 ```
 
 ---

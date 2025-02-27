@@ -1,6 +1,6 @@
+from enum import Enum
 from datetime import datetime as dt
 from datetime import timezone as tz
-from enum import Enum
 from typing import TypeVar, Generic, Any
 
 __all__: tuple[str, ...] = ("EventType", "TaskResult")
